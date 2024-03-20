@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+button {
+    border: 0px solid green;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.lato {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+}
+.sentient {
+    font-family: "Sentient", sans-serif;
+    font-weight: 500;
+}
+.fs20 {
+    font-size: 20px;
+}
+.fs32 {
+    font-size: 32px;
+}
+.fs40 {
+    font-size: 40px;
+}
+.fw3 {
+    font-weight: 300;
+}
+.fw5 {
+    font-weight: 500;
+}
+.fw7 {
+    font-weight: 700;
+}
+.fw9 {
+    font-weight: 900;
+}
+.pad {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/* FIRST PAGE */
+
+.first_page {
+    display: flex;
+    justify-content: space-between;
+}
+.first_white {
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.first_purpul {
+    background-color: #14213d;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first_btn {
+    border: 0px solid green;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 50px;
+}
+.btn_wrap {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.phone {
+    height: 800px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+}
+.menu {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+.h1 {
+    font-size: 120px;
+}
+.h1_span {
+    background-color: #fca311;
+}
+.btns button {
+    border: 0px solid green;
+    background-color: rgba(255, 255, 255, 0);
+}
+.logo_scroll{
+    background-color: black;
+}
+.scroll {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+}
+.scroll img {
+    align-self: flex-start;
+}
+
+/* SECOND PAGE */
+
+.second_page {
+    padding-bottom: 40px;
+}
+.phone_wrap {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.h2 {
+    font-family: "Sentient", sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+}
+.flex {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* THIRD PAGE */
+
+.third_page {
+    background-color: #14213d;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+/* FOURTH PAGE */
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 700px;
+}
+.stat_block {
+    box-shadow: 1px 1px 20px -1px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 1px 1px 20px -1px rgba(0,0,0,0.36);
+    -moz-box-shadow: 1px 1px 20px -1px rgba(0,0,0,0.36);
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* FIFTH PAGE */
+
+.fifth_page {
+    background-color: #14213d;
+}
+.white {
+    color: white;
+}
+.carousel {
+    align-items: center;
+    width: 3000px;
+    position: relative;
+    left: 500px;
+}
+.carousel_text {
+    position: relative;
+    right: 200px;
+}
+.carousel_block {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: white;
+    justify-content: space-between;
+}
+.carousel_block img {
+    align-self: center;
+}
+
+/* SEVENTH PAGE */
+
+.seventh_page {
+    margin-top: 200px;
+    background-color: #fca311;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+.h1_last {
+    font-size: 120px;
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #262626;
+}
+.foot_pad {
+    padding-top: 70px;
+    margin-top: 0px;
+}
+.foot_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    height: 400px;
+}
+.foot_flex * {
+    color: white !important;
+    margin-top: 20px;
+}
+
+/* FINALE */
+
+.wrap_finale {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
