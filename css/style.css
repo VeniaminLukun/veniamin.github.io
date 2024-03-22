@@ -97,9 +97,13 @@ button {
 .h1_span {
     background-color: #fca311;
 }
+.btns {
+    display: flex;
+}
 .btns button {
     border: 0px solid green;
     background-color: rgba(255, 255, 255, 0);
+    margin-right: 20px;
 }
 .logo_scroll{
     background-color: black;
@@ -114,6 +118,24 @@ button {
 .scroll img {
     align-self: flex-start;
 }
+.download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 200px;
+    padding: 10px;
+}
+.download_big {
+    font-size: 32px;
+}
+.download_small {
+    font-size: 20px;
+}
+.header a:hover {
+    border-bottom: 1px solid #000;
+}
+
 
 /* SECOND PAGE */
 
@@ -218,6 +240,9 @@ button {
 
 .footer {
     background-color: #262626;
+}
+.footer a:hover {
+    border-bottom: 1px solid #fff;
 }
 .foot_pad {
     padding-top: 70px;
